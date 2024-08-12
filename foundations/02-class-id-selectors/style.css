@@ -1,0 +1,15 @@
+.number-odd{
+	background-color: #FF000055;
+	font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#two{
+	color: blue;
+	font-size: 36px;
+}
+.addfont {
+	font-size: 24px;
+}
+#four{
+	background-color: hsla(120, 100%, 50%, 0.4);
+	font-weight: bold;
+}
