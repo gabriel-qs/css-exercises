@@ -27,3 +27,21 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+body div, ul {
+  display: flex; /*Retirando o efeito block dos filhos de body*/
+}
+
+li {
+  display: flex; /*Para retirar as bolinhas dos <li>*/
+}
+
+.header, .footer {
+  justify-content: space-between; /*Colocando os itens ul no comeco e fim da pagina*/
+  padding: 10px;
+}
+
+ul {
+  gap: 20px; /*Separando os links do topo e do rodape*/
+  padding-left: 0;
+}
