@@ -22,6 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex; /*gq*/
   flex-direction: column; /*gq*/
+  padding: 30px;
 }
 
 .icon {
@@ -73,3 +74,42 @@ button.cancel {
 .modal div {
 	display: flex; /*gq*/
 }
+
+.cima {
+	/*justify-content: space-around; */
+	align-items: center;
+}
+
+.centro, .baixo {
+	width: 85%;
+	margin-left: auto;
+}
+
+.centro {
+	margin-bottom: 15px;
+}
+
+.header {
+	flex: 1 0 auto;
+	margin-left: 32px;
+	font-weight: 700;
+}
+
+.baixo {
+	gap: 10px;
+}
+/*1 - Retirar as divs inuteis que eu coloquei (x)
+ * 2 - retirar o efeito de space-around (x)
+ * 3 - modelando o texto central: (x)
+ * 	utilize width 85%;
+ * 	margin-left: auto
+	margin-bottom de 10px para separar o texto dos botões
+   4 - modelando header para se alinhar com o texto central:
+  	width de 85%
+       	margin-left de 10px
+	Alinha verticamente de maneira centralizada
+    5 - alinha do bottoms:
+    	width 85%
+	margin-left auto
+ 
+ */
